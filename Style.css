@@ -104,7 +104,8 @@ body {
     display: flex;
     justify-content: space-around;
     /* max-height: 509px; */
-    height: calc(100vh - 142px);
+    min-height: calc(100vh - 142px);
+    height: 100%;
     align-items: center;
     position: relative;
     padding: 20px;
@@ -164,10 +165,12 @@ body {
 
 .info-two {
     padding: 30px;
-    height: 100vh;
+    min-height: 100vh;
+    height:100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background: #ffd600;
 }
 
 .info-two h1 {
@@ -199,7 +202,8 @@ body {
 
 .info-three {
     padding: 20px;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -285,12 +289,15 @@ body {
 /* Contact Page */
 
 .contact-container {
-    height: calc(100vh - 142px);
+    min-height: calc(100vh - 142px);
+    height:100%;
     width: 100%;
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: #ffd600;
+    padding-top:30px;
 }
 
 .contact-col {
@@ -315,11 +322,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #ffd600;
+    background: white;
 }
 
 .circle i {
     font-size: 36px;
+    color: black;
 }
 
 footer {
